@@ -130,7 +130,6 @@ h3{
 
 .about{
     height: 100vh;
-    width: 100vw;
     background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(245, 245, 245, 0.73)), url(../_images/chad-elliott-4O4DNGDad8Q-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -151,14 +150,170 @@ h3{
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 2em;
-    text-shadow: 1px 1px white;
+    font-size: 3em;
+    /* text-shadow: 1px 1px white; */
 
 }
 
 .about-content p{
     margin-bottom: 0;
+    margin-top:0;
     color: white;
     text-shadow: 1px 1px black;
+
+}
+
+.size-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:15px;
+    grid-template-rows:auto;
+    margin: 10px 10%;
+}
+
+
+/* Small Size Panel */
+
+
+.sizes-small{
+    grid-column: 1 / 2;
+    grid-row:1;
+    background-color: rgba(245, 246, 252, 0.50);
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.small-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-info h4{
+    font-size: 1.5em;
+    font-weight: 200;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.336);
+    color: white;
+}
+
+.small-info h4:hover{
+    background-color: black;
+}
+
+.small-info ul{
+    list-style-type: "\2714";
+}
+
+.small-info ul li{
+    padding-left: 10px;
+}
+
+
+.sizes-small img{
+    width: 400px;
+    height: 400px;
+
+}
+
+/* Medium Size Panel */
+
+.sizes-medium{
+    grid-column: 2 / 3;
+    grid-row:1;
+    background-color: rgba(245, 246, 252, 0.50);
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.medium-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medium-info h4{
+    font-size: 1.5em;
+    font-weight: 200;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.336);
+    color: white;
+}
+
+.medium-info h4:hover{
+    background-color: black;
+}
+
+.medium-info ul{
+    list-style-type: "\2714";
+}
+
+.medium-info ul li{
+    padding-left: 10px;
+}
+
+
+.sizes-medium img{
+    width: 400px;
+    height: 400px;
+
+}
+
+
+
+/* Large Size Panel */
+
+.sizes-large{
+    grid-column: 3 / 4;
+    grid-row:1;
+    background-color: rgba(245, 246, 252, 0.50);
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.large-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-info h4{
+    font-size: 1.5em;
+    font-weight: 200;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.336);
+    color: white;
+}
+
+.large-info h4:hover{
+    background-color: black;
+}
+
+.large-info ul{
+    list-style-type: "\2714";
+    margin-bottom: 0;
+}
+
+.large-info ul li{
+    padding-left: 10px;
+    font-size: 1.0em;
+}
+
+
+.sizes-large img{
+    width: 400px;
+    height: 400px;
 
 }

@@ -69,7 +69,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .nav-menu a:hover{
-    color: brown;
+    color: green;
 }
 
 
@@ -84,7 +84,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 #buy-it:hover{
-    background-color: brown;
+    background-color: green;
     color: white;
 }
 
@@ -148,18 +148,23 @@ h3{
     padding-top: 4%;
     padding-bottom: 0;
     margin-top: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Muli', sans-serif;
     font-size: 3em;
+
     /* text-shadow: 1px 1px white; */
 
 }
 
 .about-content p{
-    margin-bottom: 0;
+    margin-bottom: 5px;
     margin-top:0;
     color: white;
     text-shadow: 1px 1px black;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.4em;
 
 }
 
@@ -316,4 +321,144 @@ h3{
     width: 400px;
     height: 400px;
 
+}
+
+/* -------------Infographic Slide------------- */
+
+.infographic{
+    height: 100vh;
+    background-color: rgba(55, 121, 43, 0.8);
+    font-family: 'Muli', sans-serif;
+}
+
+.infographic-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    color: white;
+    text-shadow:1px 1px black;
+}
+
+.infographic h4{
+    margin-top: 0;
+    font-size: 4em;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.infographic p{
+    font-family: 'muli', sans-serif;
+    font-size: 1.1em;
+}
+
+.infographic-pic{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+/* ----- Infographic Info ------- */
+
+.info-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-gap:15px;
+    grid-template-rows:auto;
+    justify-content: center;
+}  
+
+.info-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 1px white solid;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.info-stats:hover{
+    background-color: rgb(0, 87, 0);
+}
+
+.info-stats h5{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.info-stats p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* ------Easily Transformable-------- */
+
+.transformable{
+    height: 100vh;
+    background-color:rgba(200, 173, 153, 1);
+}
+
+.transformable-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow:2px 1px black;
+    font-family: 'muli', sans-serif;
+}
+
+.transformable-title h4{
+    font-size: 4em;
+    margin-bottom: 0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.transformable-title p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+
+.transformation-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:15px;
+    grid-template-rows:auto;
+    justify-content: center;
+    margin: 0px 30px;
+}
+
+.transformation-panel{
+    display: block;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
+.transformation-panel img{
+ display: block;
+ width: 80%;
+ height: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.transformation-panel h5{
+    display: block;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
 }

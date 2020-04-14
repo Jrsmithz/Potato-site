@@ -1,5 +1,20 @@
+## April 14 - 2020
+
+#### Add: Two New Panels - "Features and Nutrition"
+
+Added the following to during this commit.
+
++ Added and completed the 'Nutrition' page with content and styling.
++ Added and completed the 'Features' page with content and styling.
+- Changed: The color of the Hover over on the Buy it now button to Green.
+- Changed: The color of the hover over on the menu texts to green.
 
 
+###### Personal list
++ Learned: More work with GRID, and getting comfortable with that.
++ Learned: Cetering photos in their containers with Grid.
+
+-----
 
 ## April 13 - 2020
 

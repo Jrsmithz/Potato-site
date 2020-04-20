@@ -1,3 +1,17 @@
+## April 20 - 2020
+
+#### Add: Three New Panels - "Reviews, Order Panel and Footer"
+
+Added the following to during this commit.
+
++ Added and completed the 'Reviews' page with content and styling.
++ Added and completed the 'Order Panel' page with content and styling.
++ Added and completed the 'Footer' page with content and styling.
+
+
+-----
+
+
 ## April 14 - 2020
 
 #### Add: Two New Panels - "Features and Nutrition"

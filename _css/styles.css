@@ -462,3 +462,168 @@ h3{
     letter-spacing: 2px;
     text-shadow: 1px 1px black;
 }
+
+
+/* REVIEW SECTION */
+
+
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    /* background-color: rgb(101, 102, 101); */
+}
+
+.review-title{
+    padding-bottom: 10%;
+}
+
+.review-title h4{
+    font-size: 2.6em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+.review-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.review-wrapper blockquote {
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    align-self: center;
+}
+
+.review-wrapper hr {
+    width: 100%;
+}
+
+.review-name{
+    font-family: 'Raleway', sans-serif;
+}
+
+.review-wrapper p {
+    align-self: center;
+}
+
+
+/* Order Section */
+
+.order-wrapper{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.order-title{
+    font-family: 'Raleway', sans-serif;
+    align-self: center;
+    font-size: 2.4em;
+    font-weight: 100;
+}
+
+.order-roll{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+
+.order-panel{
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.v1 {
+    border-right: 1px solid white;
+    height: 450px;
+}
+
+.order-panel h5{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.order-panel h5 span{
+    font-weight: 100;
+}
+
+.order-panel ul{
+    margin-top: 0;
+}
+
+.order-panel ul li {
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.order-panel input {
+    background-color: lightgray;
+    border: 1px solid #4caf50;
+    color:#4caf50;
+    padding:10px 50px;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.order-panel input:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+.order-panel p{
+    color:gray;
+    font-size: 0.8em;
+}
+
+.image-pic{
+    display: flex;
+    
+}
+
+.order-panel img{
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Footer Section */
+
+footer{
+    height: 15vh;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    color:gray;
+}
+
+.footer-wrapper ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.footer-wrapper li {
+    margin-left: 15px;
+}

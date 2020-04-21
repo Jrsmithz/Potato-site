@@ -1,3 +1,17 @@
+## April 21 - 2020
+
+#### Add: Three New Panels - "Reviews, Order Panel and Footer"
+
+Added the following to during this commit.
+
++ Added and completed the 'Sign Up' page with content and styling.
+
+
+
+-----
+
+
+
 ## April 20 - 2020
 
 #### Add: Three New Panels - "Reviews, Order Panel and Footer"

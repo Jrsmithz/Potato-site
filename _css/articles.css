@@ -1,0 +1,197 @@
+/* GLOBAL----------------- */
+
+html{
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navbar----------------- */
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 0 50px;
+}
+
+
+/* Navbar Logo------------ */
+
+.logo-combo{
+    display: flex;
+    align-self: center;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    align-self: baseline;
+}
+
+/* Navbar Title  */
+
+.logo-title{
+    font-size: 2.5em;
+    margin: 0;
+}
+
+
+/* Menu options--------- */
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-right: 50px;
+    list-style: none;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    /* font-weight: 800; */
+    font-style: bold;
+}
+
+/* Search and Subscribe */
+
+.subscribe-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-logo img{
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#email{
+    padding: 8px 25px 9px 25px;
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
+.subscribe-list input[type="email"]::placeholder{
+    text-align: center;
+}
+
+.subscribe-button{
+    height: 34px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    z-index: 1;
+    right: 20px;
+    color: white;
+    background-color: lightskyblue;
+}
+
+/* Billboard Photos */
+
+.headboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 1% 10%;
+    column-gap: 25px;
+}
+
+.billboard{
+    grid-column: 1 / 4;
+}
+
+.billboard-photo{
+    display: block;
+    height: 650px;
+    margin:0 auto 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.category{
+    color: lightskyblue;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+
+/* Side Panel Stuff */
+
+.side-drop{
+    grid-column: 4 / 6;
+}
+
+.side-panel{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.side-panel-pic{
+    display: block;
+    max-width: 150px;
+    height:200px;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+
+/* Blog Roll ------------- */
+.blog-posts{
+    padding: 0 5%;
+}
+
+
+.blog-roll{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog-pic{
+    display: block;
+    max-width: 450px;
+    height:200px;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.blog-panel{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 450px;
+    height: 400px;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.disclaimer p{
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    margin-right: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+footer a{
+    text-decoration: none;
+}

@@ -1,6 +1,20 @@
+## April 22 - 2020
+
+#### Add: Blog page add.
+
+Added the following to during this commit.
+
++ Added and completed the 'Blog' page with content and styling.
++ Still in need of tweaks and minor styling changes needed.
+
+
+
+-----
+
+
 ## April 21 - 2020
 
-#### Add: Three New Panels - "Reviews, Order Panel and Footer"
+#### Add: Sign Up Page add.
 
 Added the following to during this commit.
 

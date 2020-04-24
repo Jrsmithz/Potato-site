@@ -1,3 +1,20 @@
+## April 24 - 2020
+
+#### Modifications: Minor Fixes and Final touches.
+
+Added the following to during this commit.
+
++ Linked all three pages to the index.html
++ Added a hover animations to a few of the panels on index.html
++ Renamed the menu title names to reflect the links properly.
++ 
+
+
+
+-----
+
+
+
 ## April 22 - 2020
 
 #### Add: Blog page add.

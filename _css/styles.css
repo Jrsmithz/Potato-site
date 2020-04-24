@@ -445,6 +445,10 @@ h3{
     border-radius: 10px;
 }
 
+.transformation-panel:hover{
+    background-color: rgb(199, 159, 129);
+}
+
 .transformation-panel img{
  display: block;
  width: 80%;
@@ -626,4 +630,16 @@ footer{
 
 .footer-wrapper li {
     margin-left: 15px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.footer-wrapper li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-wrapper li a:hover{
+color: green;
 }
